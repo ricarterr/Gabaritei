@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3413/3413535.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="description" content="Gabaritei PWA - O seu aplicativo definitivo para aprovação em Concursos Públicos" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3413/3413535.png" />
+    <title>Gabaritei PWA | Aprovação em Concursos</title>
+  </head>
+  <body class="bg-slate-950 text-slate-100 overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('[ServiceWorker] Registrado com sucesso:', reg.scope))
+            .catch(err => console.log('[ServiceWorker] Falha no registro:', err));
+        });
+      }
+    </script>
+  </body>
+</html>

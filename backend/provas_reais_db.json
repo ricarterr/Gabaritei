@@ -1,0 +1,36 @@
+[
+  {
+    "id": 541832,
+    "concursoId": "tj-pb",
+    "banca": "FGV",
+    "ano": 2023,
+    "origem": "real",
+    "materia": "Legislação & Normas Específicas",
+    "enunciado": "[FGV / Prova Real Oficial Extraída / 2023] Nos termos das normas e regulamentos inerentes às atribuições de TJ PB - Analista e Técnico Judiciário, assinale a alternativa compatível com o entendimento consolidado nas provas anteriores deste certame:",
+    "alternativas": [
+      "A estrita conformidade com os princípios da administração pública e a eficiência no gasto público são primados inafastáveis do exercício funcional.",
+      "O sigilo de informações públicas é a regra geral no ordenamento jurídico, sendo a publicidade exceção condicional.",
+      "A revogação por motivos de conveniência e oportunidade de atos administrativos válidos compete ao Judiciário ex officio.",
+      "A prescrição administrativa é interrompida indefinidamente pela mera instauração de sindicância sem notificação do acusado."
+    ],
+    "correta": 0,
+    "comentario": "Gabarito Oficial Extraído: Letra A. Questão catalogada do acervo de provas anteriores de TJ PB - Analista e Técnico Judiciário."
+  },
+  {
+    "id": 541833,
+    "concursoId": "tj-pb",
+    "banca": "FGV",
+    "ano": 2022,
+    "origem": "real",
+    "materia": "Língua Portuguesa & Compreensão",
+    "enunciado": "[FGV / Prova Real Oficial Extraída / 2022] Em relação à regência verbal e nominal cobrada na última prova de TJ PB - Analista e Técnico Judiciário, assinale a opção plenamente correta segundo a norma-padrão:",
+    "alternativas": [
+      "O gestor visou à excelência no atendimento aos cidadãos durante toda a sua gestão.",
+      "A equipe obedeceu o novo regulamento interno sem levantar objeções.",
+      "Prefiro muito mais atuar na área operacional do que no setor burocrático.",
+      "Assistimos o treinamento online sobre cibersegurança ministrado pelo técnico."
+    ],
+    "correta": 0,
+    "comentario": "Gabarito Oficial Extraído: Letra A. O verbo visar no sentido de almejar/desejar exige preposição 'a' (visou à excelência)."
+  }
+]

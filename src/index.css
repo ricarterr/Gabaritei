@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-['Inter',sans-serif] antialiased selection:bg-brand-600 selection:text-white min-h-screen;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-['Outfit',sans-serif] tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-slate-900/80 backdrop-blur-md border border-slate-800/80 shadow-xl shadow-black/40 rounded-2xl;
+  }
+  .glass-card {
+    @apply bg-slate-800/50 hover:bg-slate-800/80 transition-all duration-300 border border-slate-700/50 rounded-xl;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 via-indigo-300 to-emerald-400 font-bold;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
